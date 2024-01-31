@@ -1,0 +1,84 @@
+
+.Canfor-container {
+    height: 50vh;
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.2);
+    object-fit: contain;
+    background-color: rgb(255, 255, 255);
+}
+
+.Canfor-container img {
+    margin-top: -950px;
+    width:20%; 
+    margin-left: 150px;
+
+  }
+
+.Canfor-container > p1 {
+    margin-top: -200px;
+    color: #000000;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    text-align: left;
+    margin-left: 700px;
+}
+
+.Canfor-container > p2 {
+    margin-top: 30px;
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    margin-left: 700px;
+    margin-right: 150px;
+}
+
+
+   
+@media screen and (max-width: 960px) {
+    .TWR-container > h1 {
+        font-size: 70px;
+        margin-top: -150px;
+        align-items: center;
+    }  
+    
+}
+
+@media screen and (max-width: 768px) {
+    .Riotinto-container {
+        height: 180vh;
+        width: 100%;
+        margin-top: -60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+        object-fit: contain;
+        text-align: center;
+        background-color: black;
+    }
+
+    .Riotinto-container > p1 {
+        font-size: 30px;
+        align-items: center;
+        padding-top: 140px;
+    }
+a
+
+    .Riotinto-container > p3 {
+        margin-bottom: -1000px;
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        position: absolute;
+    }
+}
+

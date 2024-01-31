@@ -1,0 +1,32 @@
+{
+  "slides": [
+    {
+      "background": "black",
+      "text": "Our approach is informed by circular economy concepts and a consistent ethos across all of our work.",
+      "button": {
+        "label": "OUR APPROACH",
+        "link": "/about-us"
+      }
+    },
+    {
+      "background": "black",
+      "text": "we're currently seeking opportunities for our team members \nto put their skills to the test, whether in short-term collaborative projects, \nco-op positions, job opportunities, or competitions.",
+      "buttons": [
+        {
+          "label": "APPLY HERE",
+          "link": "https://linktr.ee/UBCWasteNauts"
+        }
+      ]
+    },
+    {
+      "background": "black",
+      "text": "situated on the traditional, ancestral, and unceded \nterritory of the xʷməθkʷəy̓əm (Musqueam) people.",
+      "buttons": [
+        {
+          "label": "WHAT DOES THAT MEAN",
+          "link": "https://students.ubc.ca/ubclife/what-land-acknowledgement"
+        }
+      ]
+    }
+  ]
+}

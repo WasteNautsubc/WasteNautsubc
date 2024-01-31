@@ -1,0 +1,103 @@
+
+.Eng-container {
+    height: 50vh;
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.2);
+    object-fit: contain;
+    background-color: rgb(255, 255, 255);
+}
+
+.Eng-container img {
+    margin-top: 150px;
+    margin-bottom: 210px;
+    width:30%; 
+    margin-left: 150px;
+
+  }
+
+.Eng-container > p1 {
+    margin-top: -500px;
+    color: #9DD3A5;
+    font-size: 65px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:oblique;
+    text-align: center;
+}
+
+.Eng-container > p2 {
+    margin-top: 55px;
+    color: #000000;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    text-align: left;
+    margin-left: 700px;
+}
+
+.Eng-container > p3 {
+    margin-top: 30px;
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    margin-left: 700px;
+    margin-right: 150px;
+}
+.Eng-container > p4 {
+    margin-top: 0px;
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+   
+@media screen and (max-width: 960px) {
+    .TWR-container > h1 {
+        font-size: 70px;
+        margin-top: -150px;
+        align-items: center;
+    }  
+    
+}
+
+@media screen and (max-width: 768px) {
+    .TWR-container {
+        height: 180vh;
+        width: 100%;
+        margin-top: -60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+        object-fit: contain;
+        text-align: center;
+        background-color: black;
+    }
+
+    .TWR-container > p1 {
+        font-size: 30px;
+        align-items: center;
+        padding-top: 140px;
+    }
+a
+
+    .TWR-container > p3 {
+        margin-bottom: -1000px;
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        position: absolute;
+    }
+}
+

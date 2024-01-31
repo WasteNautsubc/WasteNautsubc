@@ -1,0 +1,94 @@
+
+.RPB-container {
+    height: 80px;
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.2);
+    object-fit: contain;
+    background-color: rgb(255, 255, 255);
+}
+
+.RPB-container img {
+    margin-top: -500px;
+    width:11%; 
+    margin-left: 1190px;
+    position: absolute;
+
+  }
+
+.RPB-container > p1 {
+    margin-top: -10px;
+    color: #000000;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    text-align: left;
+    margin-left: 150px;
+}
+
+.RPB-container > p3 {
+    margin-bottom: 0px;
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.PaddleB {
+    color: inherit;
+    border-bottom: none; 
+    color: #000000;
+    margin-top: -500px;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    text-align: left;
+    margin-left: 150px;
+  }
+   
+@media screen and (max-width: 960px) {
+    .RPB-container > h1 {
+        font-size: 70px;
+        margin-top: -150px;
+        align-items: center;
+    }  
+    
+}
+
+@media screen and (max-width: 768px) {
+    .RPB-container {
+        height: 180vh;
+        width: 100%;
+        margin-top: -60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+        object-fit: contain;
+        text-align: center;
+        background-color: black;
+    }
+
+    .RPB-container > p1 {
+        font-size: 30px;
+        align-items: center;
+        padding-top: 140px;
+    }
+a
+
+    .RPB-container > p3 {
+        margin-bottom: -1000px;
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        position: absolute;
+    }
+}
+

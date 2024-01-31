@@ -1,0 +1,106 @@
+
+.OUTLAB-container {
+    height: 130vh;
+    width: 100%;
+    margin-top: -700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    object-fit: contain;
+    text-align: center;
+    background-color: black;
+}
+
+.OUTLAB-container > p1 {
+    margin-top: -300px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+}
+
+.OUTLAB-container > p2 {
+    margin-bottom: 90px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+}
+
+.columns-container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 5 columns with equal width */
+    gap: 650px; /* Adjust the gap between columns as needed */
+    position: relative;
+    top: -60px;
+}
+
+.column2 {
+    color: #fff;
+    font-family:sans-serif;
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 20px;
+}
+
+.subcolumns-container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 610px; /* Adjust the gap between subcolumns as needed */
+    margin-top: -50px; 
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.subcolumn2 {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 28px;
+    background-color: rgba(0, 0, 0, 0); /* Set the background color for the subcolumns */
+    padding: 0px;
+}
+
+.columns-container2 a,
+.subcolumns-container2 a {
+  text-decoration: none;
+}
+   
+@media screen and (max-width: 960px) {
+    .OutreachLabSection-container > h1 {
+        font-size: 70px;
+        margin-top: -150px;
+        align-items: center;
+    }  
+}
+
+@media screen and (max-width: 768px) {
+    .OutreachLabSection > h1 {
+        font-size: 50px;
+        margin-top: -100px;
+        align-items: center;
+    }
+
+    .OutreachLabSection-container > p1 {
+        font-size: 30px;
+        align-items: center;
+    }
+    .columns-container2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 5 columns with equal width */
+        gap: 50px; /* Adjust the gap between columns as needed */
+        position: relative;
+        top: -60px;
+    }
+    
+    .column2 {
+        color: #fff;
+        font-family:sans-serif;
+        font-size: 60px;
+        background-color: rgba(0, 0, 0, 0);
+        padding: 20px;
+    }
+
+}

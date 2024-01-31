@@ -1,0 +1,121 @@
+
+.M-container {
+    height: 100vh;
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.2);
+    object-fit: contain;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.M-container img {
+    width:11%; 
+    margin-left: 1350px;
+    margin-top: -300px;
+    position: absolute;
+
+  }
+
+.M-container > p1 {
+    color: #000000;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    text-align: left;
+    margin-left: 150px;   
+    margin-top: -400px;
+
+}
+
+.M-container > p2 {
+    margin-bottom: 0px;
+    color: #9dd3af;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 400px;
+    margin-top: 30px;
+}
+
+.M-container > p3 {
+    margin-bottom: 0px;
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 400px;
+    margin-top: 30px;
+}
+
+.M-container > p4 {
+    margin-bottom: 0px;
+    color: #9dd3af;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 400px;
+    margin-top: 30px;
+}
+
+.M-container iframe {
+    position: absolute;
+    border: none;
+    margin-left: 450px;
+    margin-right: 800px;
+    margin-top: 400px;
+    margin-bottom: -0px;
+
+    /* Add additional styles as needed */
+  }
+
+   
+@media screen and (max-width: 960px) {
+    .RPB-container > h1 {
+        font-size: 70px;
+        margin-top: -150px;
+        align-items: center;
+    }  
+    
+}
+
+@media screen and (max-width: 768px) {
+    .RPB-container {
+        height: 180vh;
+        width: 100%;
+        margin-top: -60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+        object-fit: contain;
+        text-align: center;
+        background-color: black;
+    }
+
+    .RPB-container > p1 {
+        font-size: 30px;
+        align-items: center;
+        padding-top: 140px;
+    }
+a
+
+    .RPB-container > p3 {
+        margin-bottom: -1000px;
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        position: absolute;
+    }
+}
+

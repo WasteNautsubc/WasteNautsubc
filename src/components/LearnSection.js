@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import { Button } from './Button';
+import { Link } from 'react-router-dom';
 import './LearnSection.css';
  
 function LearnSection() {
@@ -25,20 +26,20 @@ function LearnSection() {
           OUR INSTAGRAM
         </Button>
         <Button
-        to='/projects'
+          as={Link} // Use Link instead of anchor tag
+          to='/projects'
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={console.log('Navigate to /projects')}
         >
           OUR TEAMS
         </Button>
         <Button
-        to='/Sponsors_Advisors'
+          as={Link} // Use Link instead of anchor tag
+          to='/Sponsors_Advisors'
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={console.log('Navigate to /projects')}
         >
           OUR SPONSORS
         </Button>

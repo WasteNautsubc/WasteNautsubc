@@ -15,7 +15,7 @@
 .RPB {
     width:11%; 
     right: 90px;
-    margin-bottom: 200px;
+    margin-bottom: -200px;
     position: absolute;
 
   }
@@ -23,14 +23,14 @@
   .RPB1 {
     width: 40%; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
-    top: 1150px; /* Adjust the top margin as needed */
+    top: 1450px; /* Adjust the top margin as needed */
     right: 28%;
     position: absolute;
 }
 .RPB2 {
     width: 40%; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
-    top: 1150px; /* Adjust the top margin as needed */
+    top: 1450px; /* Adjust the top margin as needed */
     right: 8%;
     position: absolute;
 }

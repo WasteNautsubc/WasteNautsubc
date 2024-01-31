@@ -4,9 +4,9 @@ import './TWRSection.css';
 const TWRSection = () => {
   return (
     <div className='TWR-container'>
-      <a1 href="/textile-waste-recycling" className='TextileWaste'>
+      <a href="/textile-waste-recycling" className='TextileWaste'>
        <img src="./images/TWR.png" alt="TWR logo"/>
-       </a1>
+       </a>
       <p1> CURRENT PROJECTS (2023-24 DESIGN CYCLE)</p1>
       <a href="/textile-waste-recycling" className='TextileWaste'>
       <p2>TEXTILE WASTE RECYCLING</p2></a>

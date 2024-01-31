@@ -6,7 +6,7 @@ import '../App.css';
 const Pastpro = () => {
   return (
     <div className='Pastpro-container'>
-      <a href="/past-projects" target="_blank"  className='PastP'>
+      <a href="/past-projects" className='PastP'>
       <p2>Take a Look at Our Past Projects!</p2>
       </a>
 

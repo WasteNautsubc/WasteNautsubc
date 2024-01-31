@@ -5,7 +5,7 @@ const HEHSSection = () => {
   return (
     <div className='HEHS-container'>
       <a href="/hybrid-energy-harvesting-systems" className='HEnergy'>
-       <img src="./images/HEHS.png" />
+       <img src="./images/HEHS.png" alt="HEHS logo"/>
        </a>
        <a href="/hybrid-energy-harvesting-systems" className='HEnergy'>
       <p1>HYBRID ENERGY HARVESTING SYSTEMS</p1>

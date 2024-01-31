@@ -7,7 +7,7 @@ const RPBSection = () => {
   return (
     <div className='RPB-container'>
       <a href="/recycled-plastic-paddle-board" className='PaddleB'>
-       <img src="./images/RPB.png" />
+       <img src="./images/RPB.png" alt="RPB logo"/>
        </a>
        <a href="/recycled-plastic-paddle-board" className='PaddleB'>
       <p1>RECYCLED COMPOSITE PADDLE BOARD</p1>

@@ -5,7 +5,7 @@ const TTCSection = () => {
   return (
     <div className='TT-container'>
        <a href="/tailings-to-concrete" className='Tailings'>
-       <img src="./images/TTC.png" />
+       <img src="./images/TTC.png" alt="TTC logo"/>
        </a>
        <a href="/tailings-to-concrete" className='Tailings'>
       <p1>TAILINGS TO CONCRETE</p1>

@@ -10,7 +10,7 @@ const Mycelium = () => {
 
   return (
     <div className='M-container'>
-       <img src="./images/myco.png" />
+       <img src="./images/myco.png" alt="MM logo"/>
       <p1>ABOUT</p1>
       <p2>Founders: Ava Wang and Lillian McCallum
         </p2>

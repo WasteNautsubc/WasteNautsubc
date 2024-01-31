@@ -5,7 +5,7 @@ const Eng = () => {
   return (
     <div className='Eng-container'>
         <a href=" https://mtrl.ubc.ca/" target="_blank" rel="noopener noreferrer">
-       <img src="./images/Eng.png"/>
+       <img src="./images/Eng.png" alt="eng logo"/>
        </a>
       <p1> Thank you to our sponsors!</p1>
       <p2>UBC Departments of Engineering</p2>

@@ -7,7 +7,7 @@ const Textile = () => {
     const slidesUrl = 'https://docs.google.com/presentation/d/1y722GexTu6UxExhko24o3ixKqEHsaNzXM60GHBXKVOs/embed?start=true&loop=true&delayms=3000&rm=minimal';
   return (
     <div className='T-container'>
-       <img src="./images/TWR.png" />
+       <img src="./images/TWR.png" alt="TWR logo" />
       <p1>ABOUT</p1>
       <p2>Project Lead: Lael Lassmann</p2>
       <p4>Project Updates</p4>

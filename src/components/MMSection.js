@@ -5,7 +5,7 @@ const MMSection = () => {
   return (
     <div className='MM-container'>
       <a1 href="/mycelium-mycopack" className='Mycopack'>
-       <img src="./images/MM.png" />
+       <img src="./images/MM.png" alt="MM logo" />
        </a1>
        <a href="/mycelium-mycopack" className='Mycopack'>
       <p1>MYCELIUM MYCOPACK</p1>

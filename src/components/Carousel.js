@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link, useHistory } from "react-router-dom";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 
 import "./Carousel.css";
@@ -30,17 +31,17 @@ export const Carousel = ({ data }) => {
           <p>{slideData.text}</p>
           {slideData.button && (
             <div className="buttons">
-              <a href={slideData.button.link} target="_blank" rel="noopener noreferrer">
+               <Link to={slideData.button.link}>
                 <button>{slideData.button.label}</button>
-              </a>
+                </Link>
             </div>
           )}
           {slideData.buttons && slideData.buttons.length > 0 && (
             <div className="buttons">
               {slideData.buttons.map((button, btnIdx) => (
-                <a key={btnIdx} href={button.link} target="_blank" rel="noopener noreferrer">
+                <Link key={btnIdx} to={button.link}>
                   <button>{button.label}</button>
-                </a>
+                  </Link>
               ))}
             </div>
           )}

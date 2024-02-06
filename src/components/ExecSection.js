@@ -22,7 +22,7 @@ const ExecSection = () => {
         <p className='image-text'>Andrew Feng</p>
         <p className='image-text'>VP Finance</p>
         </a>
-        <a href="https://www.linkedin.com/in/hugowubc/" className='image-text-container4'>
+        <a href="https://www.linkedin.com/in/hugowuu/" className='image-text-container4'>
         <img src='/images/Hugo.jpeg' alt='Team Member 4' className='exec-image' />
         <p className='image-text'>Hugo Wu</p>
         <p className='image-text'>VP External</p>
@@ -45,9 +45,11 @@ const ExecSection = () => {
        
         </div>
         <div className='image-text-container7'>
-        <img src='/images/blank.png' alt='Team Member 7' className='exec2-image' />
-        <p className='image-text'>XXX XXX</p>
+        <a href="https://www.linkedin.com/in/annie-plecas-943803202/" className='image-text-container5'>
+        <img src='/images/Annie.jpeg' alt='Team Member 7' className='exec2-image' />
+        <p className='image-text'>Annie Plecas</p>
         <p className='image-text'> VP Internal</p>
+        </a>
         </div>
       </div>
 
